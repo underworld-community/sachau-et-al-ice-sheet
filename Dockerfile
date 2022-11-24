@@ -1,10 +1,4 @@
-# Please choose your required Underworld/UWGeo image version here.
-# Available images may be found at
-#   https://hub.docker.com/r/underworldcode/underworld2/tags
-#   https://hub.docker.com/r/underworldcode/uwgeodynamics/tags
-FROM underworldcode/uwgeodynamics:v2.8.5
-
-# THE FOLLOWING WILL USUALLY NOT REQUIRE MODIFICATION.
+FROM underworldcode/underworld:2.12.2b
 
 # This command will copy in all the files in your repo.
 COPY --chown=jovyan:users . /home/jovyan/community_model
