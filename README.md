@@ -2,35 +2,42 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
 
-About
+Abstract
 -----
-**_Please replace the following with information about your own repository._**
-
-Welcome! This is a template git repository for creating REPRODUCIBLE Underworld code based projects.
-
-REPRODUCIBLE because this project:
-1. Is stored in a git repository.
-2. Uses a Dockerfile to recreate the exact project environment.
-
-The two features above enable the project to take advantage of software engineering and open source principles, such as:
-_version control_, _reproducible environments_, _collaboration_ (Pull Requests, Binderhub), _continuous integration_. 
-
-(See https://the-turing-way.netlify.com/, for a general introduction to these principle. N.B. it is data-science focussed)  
-
-You can use this repository as a GitHub template to start a new repository of your own that matches the requirements of the underworld-community. To get started, hit the "Use this template" button above. See this [quick start guide]( https://github.com/underworld-community/template-project/wiki/Quick-start) for more information.
+Numerical models have become an indispensable tool for understanding and predicting the flow of ice
+sheets and glaciers. Here we present the full-Stokes software
+package Underworld to the glaciological community. The
+code is already well established in simulating complex geodynamic systems. Advantages for glaciology are that it provides a full-Stokes solution for elastic–viscous–plastic materials and includes mechanical anisotropy. Underworld uses a
+material point method to track the full history information of
+Lagrangian material points, of stratigraphic layers and of free
+surfaces. We show that Underworld successfully reproduces
+the results of other full-Stokes models for the benchmark experiments of the Ice Sheet Model Intercomparison Project for
+Higher-Order Models (ISMIP-HOM). Furthermore, we test
+finite-element meshes with different geometries and highlight the need to be able to adapt the finite-element grid to
+discontinuous interfaces between materials with strongly different properties, such as the ice–bedrock boundary
 
 
-Files
+More details on this project can be seen [here](https://doi.org/10.5194/gmd-15-1-2022):
+Sachau, T., Yang, H., Lang, J., Bons, P.D. and Moresi, L., 2022. ISMIP-HOM benchmark experiments using Underworld. Geoscientific Model Development. 
+
+This study uses Underworld to reproduce the benchmark models provided by [ISMIP–HOM](https://doi.org/10.5194/tc-2-95-2008)
+
+Pattyn, F., Perichon, L., Aschwanden, A., Breuer, B., De Smedt, B., Gagliardini, O., Gudmundsson, G.H., Hindmarsh, R.C., Hubbard, A., Johnson, J.V. and Kleiner, T., 2008. Benchmark experiments for higher-order and full-Stokes ice sheet models (ISMIP–HOM). The Cryosphere, 2(2), pp.95-108., 
+
+Files Description
 -----
-**_Please give a quick overview of purpose of the model files/directories included in this repo._**
-**_Note that while light data files are fine,  heavy data should not be included in your repository._**
+**_Overview of purpose of the model files/directories included in this repo._**
 
 File | Purpose
 --- | ---
-`RayTay.ipynb` | A simple Rayleigh Taylor notebook. 
-`VrmsCaseA.txt`| Expected results data file. 
-`raytay.png` | Image file.
-`raytay_init.png` | Initial image file.
+`Exp_A_3D.py` | 3D model for the Experiment A. 
+`Exp_B_2D.py` | 2D model for the Experiment B. 
+`Exp_B_3D.py` | 3D model for the Experiment B.
+`Exp_C_3D.py` | 3D model for the Experiment C.
+`Exp_D_2D.py` | 2D model for the Experiment D.
+`Exp_E_mixed-slip-version.py` | 2D model for the Experiment E with mixed slip.
+`Exp_E_mixed-no-slip-version.py` | 2D model for the Experiment E without slip.
+`Exp_F_3D.py` | 3D model for the Experiment F.
 
 Tests
 -----
