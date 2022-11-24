@@ -20,9 +20,7 @@ discontinuous interfaces between materials with strongly different properties, s
 More details on this project can be seen [here](https://doi.org/10.5194/gmd-15-1-2022):
 Sachau, T., Yang, H., Lang, J., Bons, P.D. and Moresi, L., 2022. ISMIP-HOM benchmark experiments using Underworld. Geoscientific Model Development. 
 
-This study uses Underworld to reproduce the benchmark models provided by [ISMIP–HOM](https://doi.org/10.5194/tc-2-95-2008)
 
-Pattyn, F., Perichon, L., Aschwanden, A., Breuer, B., De Smedt, B., Gagliardini, O., Gudmundsson, G.H., Hindmarsh, R.C., Hubbard, A., Johnson, J.V. and Kleiner, T., 2008. Benchmark experiments for higher-order and full-Stokes ice sheet models (ISMIP–HOM). The Cryosphere, 2(2), pp.95-108., 
 
 Files Description
 -----
@@ -30,7 +28,7 @@ Files Description
 
 File | Purpose
 --- | ---
-`Exp_A_3D.py` | 3D model for the Experiment A. 
+`Exp_A_3D.py` | 3D model for the Experiment A in Sachau_et_al_2022. 
 `Exp_B_2D.py` | 2D model for the Experiment B. 
 `Exp_B_3D.py` | 3D model for the Experiment B.
 `Exp_C_3D.py` | 3D model for the Experiment C.
@@ -41,22 +39,13 @@ File | Purpose
 
 Tests
 -----
-**_Please specify how your repository is tested for correctness._**
-**_Tests are not required for `laboratory` tagged repositories, although still encouraged._**
-**_All other repositories must include a test._**
 
-The attained peak VRMs time is tested against an expected value. If it is outside a given tolerance, an exception is raised.
+This study uses Underworld to reproduce the benchmark models provided by [ISMIP–HOM](https://doi.org/10.5194/tc-2-95-2008)
+
+Pattyn, F., Perichon, L., Aschwanden, A., Breuer, B., De Smedt, B., Gagliardini, O., Gudmundsson, G.H., Hindmarsh, R.C., Hubbard, A., Johnson, J.V. and Kleiner, T., 2008. Benchmark experiments for higher-order and full-Stokes ice sheet models (ISMIP–HOM). The Cryosphere, 2(2), pp.95-108., 
 
 Parallel Safe
 -------------
-**_Please specify if your model will operate in parallel, and any caveats._**
+Test results can be obtained in both serial and parallel operation.
 
-Yes, test result should be obtained in both serial and parallel operation.
-
-Check-list
-----------
-- [ ] (Required) Have you replaced the above sections with your own content? 
-- [ ] (Required) Have you updated the Dockerfile to point to your required UW/UWG version? 
-- [ ] (Required) Have you included a working Binder badge/link so people can easily run your model?
-                 You probably only need to replace `template-project` with your repo name. 
-- [ ] (Optional) Have you included an appropriate image for your model? 
+ 
