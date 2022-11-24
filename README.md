@@ -18,13 +18,12 @@ discontinuous interfaces between materials with strongly different properties, s
 
 
 More details on this project can be seen [here](https://doi.org/10.5194/gmd-15-1-2022):
-Sachau, T., Yang, H., Lang, J., Bons, P.D. and Moresi, L., 2022. ISMIP-HOM benchmark experiments using Underworld. Geoscientific Model Development. 
+_Sachau, T., Yang, H., Lang, J., Bons, P.D. and Moresi, L., 2022. ISMIP-HOM benchmark experiments using Underworld. Geoscientific Model Development._
 
 
 
 Files Description
 -----
-**_Overview of purpose of the model files/directories included in this repo._**
 
 File | Purpose
 --- | ---
@@ -45,7 +44,9 @@ Tests
 
 This study uses Underworld to reproduce the benchmark models provided by [ISMIP–HOM](https://doi.org/10.5194/tc-2-95-2008)
 
-Pattyn, F., Perichon, L., Aschwanden, A., Breuer, B., De Smedt, B., Gagliardini, O., Gudmundsson, G.H., Hindmarsh, R.C., Hubbard, A., Johnson, J.V. and Kleiner, T., 2008. Benchmark experiments for higher-order and full-Stokes ice sheet models (ISMIP–HOM). The Cryosphere, 2(2), pp.95-108., 
+_Pattyn, F., Perichon, L., Aschwanden, A., Breuer, B., De Smedt, B., Gagliardini, O., Gudmundsson, G.H., Hindmarsh, R.C., Hubbard, A., Johnson, J.V. and Kleiner, T., 2008. Benchmark experiments for higher-order and full-Stokes ice sheet models (ISMIP–HOM). The Cryosphere, 2(2), pp.95-108._ 
+
+Better to take notebook file Exp_B_2D.ipynb as a start.
 
 Parallel Safe
 -------------
