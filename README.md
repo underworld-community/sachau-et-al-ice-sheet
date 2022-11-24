@@ -1,4 +1,4 @@
-<table><tr><td><img src='./raytay_init.png'></td><td><img src='./raytay.png'></td></tr></table>
+<table><tr><td></td><td><img src='./velocity_10000.0.png'></td></tr></table>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
 
@@ -30,12 +30,15 @@ File | Purpose
 --- | ---
 `Exp_A_3D.py` | 3D model for the Experiment A in Sachau_et_al_2022. 
 `Exp_B_2D.py` | 2D model for the Experiment B. 
+`Exp_B_2D.ipynb` | notebook of 2D model for the Experiment B.
 `Exp_B_3D.py` | 3D model for the Experiment B.
 `Exp_C_3D.py` | 3D model for the Experiment C.
 `Exp_D_2D.py` | 2D model for the Experiment D.
 `Exp_E_mixed-slip-version.py` | 2D model for the Experiment E with mixed slip.
 `Exp_E_mixed-no-slip-version.py` | 2D model for the Experiment E without slip.
 `Exp_F_3D.py` | 3D model for the Experiment F.
+'velocity_10000.0.png' | image of velocity profile of Exp_B_2D.
+'mesh_deform_default_swarm.png' | image of deformed mesh.
 
 Tests
 -----
@@ -46,6 +49,6 @@ Pattyn, F., Perichon, L., Aschwanden, A., Breuer, B., De Smedt, B., Gagliardini,
 
 Parallel Safe
 -------------
-Test results can be obtained in both serial and parallel operation.
+3D model results can be obtained in parallel operation.
 
  
