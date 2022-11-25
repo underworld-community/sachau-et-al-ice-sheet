@@ -1,6 +1,7 @@
 <table><tr><td><img src='./velocity_10000.0.png'></td></tr></table>
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
+Launch this repository - 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/sachau-et-al-ice-sheet/HEAD)
 
 Abstract
 -----
