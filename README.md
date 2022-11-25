@@ -1,5 +1,9 @@
 <table><tr><td><img src='./velocity_10000.0.png'></td></tr></table>
 
+[![DOI](https://zenodo.org/badge/569971744.svg)](https://zenodo.org/badge/latestdoi/569971744)
+
+
+
 Launch this repository - 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/sachau-et-al-ice-sheet/HEAD)
 
