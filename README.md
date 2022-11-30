@@ -43,6 +43,8 @@ File | Purpose
 `Exp_F_3D.py` | 3D model for the Experiment F.
 'velocity_10000.0.png' | image of velocity profile of Exp_B_2D.
 'mesh_deform_default_swarm.png' | image of deformed mesh.
+'Results-all-simulations.zip' | raw data of all simulations.
+'Results-and-Figures.pdf' | figures used in Sachau et al. 2022.
 
 Tests
 -----
